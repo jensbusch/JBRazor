@@ -1,0 +1,9 @@
+﻿.desktop-wrapper {
+    position: relative;
+}
+
+.desktop-body {
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+}

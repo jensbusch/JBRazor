@@ -1,0 +1,12 @@
+﻿.jb-window-frame {
+    display:grid;
+    grid-template-rows:30px auto 20px;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: solid;
+    border-width: 0.3px;
+    border-color: darkgray;
+    box-shadow: 1px 1px 5px silver;
+
+}

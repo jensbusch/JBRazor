@@ -1,0 +1,7 @@
+﻿.jb-window-caption {
+    background-color: WindowFrame;
+    color:WindowText;
+    border:solid;
+    border-width:1px;
+    border-color:ActiveBorder;
+}
