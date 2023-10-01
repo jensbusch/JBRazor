@@ -7,6 +7,7 @@ namespace JBRazorLib.Windows
 {
     public partial class JBWindow : ComponentBase
     {
+        int _top, _left, _width, _right;
         [Parameter]
         public RenderFragment ChildContent
         {
@@ -14,16 +15,18 @@ namespace JBRazorLib.Windows
             set;
         }
         [Parameter]
-        public int Top { get; set; } = 0;
+        public string Top { get; set; } = "0px";
         [Parameter]
-        public int Left { get; set; } = 0;
+        public string Left { get; set; } = "0px";
         [Parameter]
-        public int Width { get; set; } = 0;
+        public string Width { get; set; } = "400px";
         [Parameter]
-        public int Height { get; set; } = 0;
+        public string Height { get; set; } = "250px";
 
 
         [Parameter]
         public string Caption { get; set; } = "Window";
+
+        
     }
 }

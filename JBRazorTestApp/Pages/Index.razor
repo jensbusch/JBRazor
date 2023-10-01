@@ -2,8 +2,11 @@
 
 <PageTitle>Index</PageTitle>
 
-<JBDesktop>
-    <JBWindow Caption="Window 1" Top="100" Left="100" Width="250" Height="200">
+<!--
+    <JBDesktop BackgroundImage="./images/windows_xp_bliss-wide.webp">
+-->
+<JBDesktop BackgroundImage="./images/windows_xp_bliss-wide.webp">
+    <JBWindow Caption="Window 1" Top="10px" Left="10px" Width="350px" Height="250px" >
         <h1>Counter</h1>
 
         <p role="status">Current count: @currentCount</p>
@@ -11,7 +14,7 @@
         <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
     </JBWindow>
 
-    <JBWindow Caption="Window 2" Top="250" Left="150" Width="350" Height="250">
+    <JBWindow Caption="Window 2" Top="250px" Left="150px" Width="350px" Height="250px">
         <h1>Counter</h1>
 
         <p role="status">Current count: @currentCount</p>
@@ -21,8 +24,6 @@
 
 </JBDesktop>
 
-
-<SurveyPrompt Title="How is Blazor working for you?" />
 
 @code {
     private int currentCount = 0;

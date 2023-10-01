@@ -13,5 +13,8 @@ namespace JBRazorLib.Desktop
             get;
             set;
         }
+
+        [Parameter]
+        public string BackgroundImage { get; set; } = "";
     }
 }
